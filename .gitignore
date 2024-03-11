@@ -11,7 +11,7 @@ bin/
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -32,14 +32,10 @@ out/
 ### Groovy ###
 **/*.class
 **/*.groovydoc
-.gradle
+.gradle/
 build/
 out/
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
 # Package Files #
 *.jar
@@ -65,7 +61,6 @@ ehthumbs.db
 Thumbs.db
 
 # IntelliJ IDEA specific
-*.iws
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/gradle.xml
