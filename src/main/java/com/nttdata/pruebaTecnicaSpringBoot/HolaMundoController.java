@@ -8,7 +8,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping("api")
 public class HolaMundoController {
     @GetMapping("/hola")
     public Map<String, String> saludo() {
